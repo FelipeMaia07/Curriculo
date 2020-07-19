@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+
+    <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-app.js"></script>
+     <script src="https://www.gstatic.com/firebasejs/7.16.1/firebase-database.js"></script>
+
+
+
+
+    
+    <script src="js/functions.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+    <title>Currículum Vitae</title>
+  </head>
+  <body>
+<div id="interface">
+  <h1>Currículo Vitae</h1>
+  <h2>Marlon Felipe Maia Meijueiro</h2>
+  <figure class="foto-curriculo">
+    <img src="imagem1.jpeg"/>
+  </figure>
+  
+  <h3>
+    <pre>
+  Brasileiro, Solteiro
+  Rua Evangelista Paolilo, 541 – Jardim Nova Itália - Limeira – São Paulo
+  ☎ +55 (19) 996153162
+  ✉ felipe.neoangra@gmail.com
+    </pre>
+
+  </h3>
+
+<h2>Objetivo</h2>
+  <p>Adquirir conhecimentos profissionais que me tornem um profissional qualificado para atuar na área de programação e sistemas embarcados.</p>
+<h2>Formação Acadêmica</h2>
+  <p>Universidade Estadual de Campinas (Unicamp)<p>
+<h2>Experiência Profissional</h2>
+<nav>
+  <ol type="1">
+    <li>Report Company: Auxiliar administrativo</li>
+    <li>Estágio nível técnico no Laboratório Nacional de Luz Síncrotron:
+No grupo de controle, o projeto principal de trabalho e pesquisa foi o de otimização de cicuito utilizando conversor digital/analógico de 24 bits que tinha como objetivo melhorar a resolução de um sinal analógico que controlava os eletroímãs com objetivo de manter o feixe de elétrons em sua órbita correta.</li>
+    <li>Atlética AAAETA: Dois anos como Conselheiro Geral
+ Monitor do CAF (Ciência e Arte nas Férias) com projeto de Visible Light communication (Unicamp- 2015)</li>
+    <li>Estágio nível superior no IBEC – Instituto Brasileiro de Ensaios e Conformidade: Participar de testes laboratoriais no setor de segurança elétrica, compatibilidade eletromagnética.</li>
+    <li>Squadra Tecnologia: Atuação em atividades de desenvolvimento e testes de aplicativos móveis para as plataformas Android e iOS.  Treinamentos em tecnologia multiplataforma (Xamarin) e na linguagem de programação C#, visando o desenvolvimento de aplicativos móveis utilizando essa tecnologia.</li>
+  </ol>
+</nav>
+
+ <nav>
+ <h2>Trabalho como bolsista Unicamp</h2>
+  <ol type="1">
+    <li>Criação de Conteúdo para Oficinas de Robótica</li>
+    <li>Estudo de materiais fotorrefrativos usando técnicas holográficas</li>
+    <li>Desenvolvimento de uma estação de medição de chuvas, temperatura e umidade de baixo custo (Em desenvolvimento)</li></li>
+    <li>Desenvolvimento de um pluviografo de baixo custo utilizando NomeMcu ESP8266</li>
+  </ol>
+  </nav>
+ <nav>  
+  <h2>Cursos/informações complementares</h2>
+    <ul>
+      <li>Ensino Médio – Colégio técnico da universidade Estadual de Campinas ( COTUCA).</li>
+      <li>Curso técnico de Eletroeletrônica da Universidade Estadual de Campinas ( COTUCA).</li>
+      <li>Inglês avançado – Wizard.</li>
+      <li>Espanhol intermediário – Wizard.</li>
+      <li>Francês – Em andamento (Francês com a Lígia).</li>
+      <li>Conhecimento intermediários/básicos em linguagens de programação e Softwares C , JAVA, Python, Assembly , MATLAB, Programação de Dispositivos Móveis (Android), C#.</li>
+    </ul>
+  </nav>
+
+ <nav>
+  <h2>Atividades Extracurriculares</h2>
+    <ol type="1">
+    <li>Trabalho voluntário como professor de inglês na Associação Pró-Menor (2012)</li>
+    <li>Trabalho voluntário como professor de matemática no cursinho pré-vestibular Aprimorandos 2014.</li>
+    <li>Trabalho voluntário como professor de matemática no cursinho pré-vestibular Aprimorandos 2019.</li>
+</nav>
+<h2>Objetivos</h2>
+ Desenvolvimento de novas tecnologias<br>
+ Aprimoramento pessoal e profissional.
+
+  </div>
+
+    <h1>Fale comigo:</h1>
+    <form id = "contactForm">
+      <p>
+	<label>Name: <input type="text" name="name" id="name"/></label>
+      </p>
+      <p>
+	<label>Company:<input type="text" name="company" id="company"/>
+      </p>
+      <p>
+	<label>Email:<input type="email" name="email"/>
+      </p>
+      <p>
+	<label>Phone:<input type="text" name="phone" id="phone"/>
+      </p>
+      <p>
+	<label>Message:</br><textarea name="message" rows="5" id="message">
+	    </textarea>
+	</label>
+      </p>
+      <p>
+	<button type="submit" onclick="return submitForm()">Submit</button>
+      </p>
+    </form>
+    
+    <div class="closed" id="confirm">Your Message has been sent!</>
+  </body>  
+</html>
