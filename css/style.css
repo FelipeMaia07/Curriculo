@@ -5,3 +5,45 @@
 .open{
     display: block;
 }
+
+body{
+
+	background:#B3B3B3;
+	font-size:140%;
+	color: black;
+	margin:32;
+
+ }
+
+header{
+	text-align:center;
+	color:blue;
+
+	 	      
+}
+
+h1{
+	color:#ffffff;
+	font-variant: normal;
+	font-variant: normal;
+}
+
+h3{
+	font-family: fantasy, serif;s
+	font-variant: small-caps;
+	font-style: unset;
+}
+pre{ color: blue;
+	font-style: italic;
+	 
+	
+}
+
+/*formatação de imagens , onde precisamos definir uma classe para a imagem
+ border = */
+figure.foto-curriculo img {
+	width: 20%;
+	height: 0%;
+	display: block;
+
+}
